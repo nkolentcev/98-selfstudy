@@ -1,0 +1,25 @@
+# Logs
+logs/
+*.log
+
+# Metrics data
+metrics/
+*.csv
+
+# Temporary files
+/tmp/
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Backups
+*.backup.*
+
+# Dashboard data
+dashboard/data.json
