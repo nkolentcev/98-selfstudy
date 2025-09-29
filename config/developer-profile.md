@@ -1,171 +1,171 @@
-# Developer Profile Template
+# Шаблон профиля разработчика
 
-**Created:** $(date)
+**Создан:** $(date)
 
-## Personal Information
+## Личная информация
 
-- **Name:** [Your Name]
-- **Email:** [Your Email]
-- **Role:** [Your Current Role/Title]
-- **Experience:** [Years of Experience] years
+- **Имя:** [Ваше имя]
+- **Email:** [Ваш email]
+- **Роль:** [Ваша текущая роль/должность]
+- **Опыт:** [Лет опыта] лет
 
-## Technical Preferences
+## Технические предпочтения
 
-### Programming Languages
-[List your preferred programming languages, e.g., Python, JavaScript, Go, etc.]
+### Языки программирования
+[Перечислите ваши предпочитаемые языки программирования, например: Python, JavaScript, Go, и т.д.]
 
-### Development Tools
-[List your favorite development tools, e.g., VS Code, Git, Docker, etc.]
+### Инструменты разработки
+[Перечислите ваши любимые инструменты разработки, например: VS Code, Git, Docker, и т.д.]
 
-### Focus Areas
-[List your primary focus areas, e.g., web development, mobile apps, machine learning, etc.]
+### Области фокуса
+[Перечислите ваши основные области фокуса, например: веб-разработка, мобильные приложения, машинное обучение, и т.д.]
 
-## Productivity Settings
+## Настройки продуктивности
 
-### Work Preferences
-- **Pomodoro Duration:** 25 minutes (default)
-- **Break Duration:** 5 minutes (default)
-- **Deep Work Duration:** 90 minutes (default)
-- **Daily Work Hours Goal:** 6-8 hours
-- **Preferred Work Times:** [e.g., 9 AM - 5 PM]
+### Рабочие предпочтения
+- **Продолжительность Pomodoro:** 25 минут (по умолчанию)
+- **Продолжительность перерыва:** 5 минут (по умолчанию)
+- **Продолжительность глубокой работы:** 90 минут (по умолчанию)
+- **Цель рабочих часов в день:** 6-8 часов
+- **Предпочитаемое рабочее время:** [например, 9:00 - 17:00]
 
-### AI Assistant Preferences
-- **Verbosity:** Balanced (Options: Concise, Balanced, Detailed)
-- **Code Style:** Clean and readable
-- **Testing Preference:** TDD when possible
-- **Review Focus:** Security, Performance, Maintainability
+### Предпочтения ИИ-ассистента
+- **Детализация:** Сбалансированная (Варианты: Краткая, Сбалансированная, Подробная)
+- **Стиль кода:** Чистый и читаемый
+- **Предпочтения тестирования:** TDD когда возможно
+- **Фокус ревью:** Безопасность, Производительность, Сопровождаемость
 
-## Goals
+## Цели
 
-### Short-term Goals (Next Month)
-- [ ] Complete High-Efficiency Programmer System setup
-- [ ] Establish daily routine with morning setup and evening retrospective
-- [ ] Achieve consistent 80+ productivity scores
-- [ ] Complete at least 2 significant coding projects
-- [ ] [Add your custom short-term goal]
+### Краткосрочные цели (Следующий месяц)
+- [ ] Завершить настройку Системы Высокоэффективного Программиста
+- [ ] Установить ежедневную рутину с утренней настройкой и вечерней ретроспективой
+- [ ] Достичь последовательных показателей продуктивности 80+
+- [ ] Завершить минимум 2 значимых проекта по кодингу
+- [ ] [Добавьте вашу краткосрочную цель]
 
-### Long-term Goals (Next Quarter)
-- [ ] Improve overall code quality and maintainability
-- [ ] Learn new technology/programming language
-- [ ] Contribute to open source projects
-- [ ] Build personal productivity system
-- [ ] [Add your custom long-term goal]
+### Долгосрочные цели (Следующий квартал)
+- [ ] Улучшить общее качество кода и сопровождаемость
+- [ ] Изучить новую технологию/язык программирования
+- [ ] Внести вклад в open source проекты
+- [ ] Построить личную систему продуктивности
+- [ ] [Добавьте вашу долгосрочную цель]
 
-### Annual Goals
-- [ ] [Add your yearly professional goals]
-- [ ] [Add your yearly learning goals]
-- [ ] [Add your yearly contribution goals]
+### Годовые цели
+- [ ] [Добавьте ваши годовые профессиональные цели]
+- [ ] [Добавьте ваши годовые цели обучения]
+- [ ] [Добавьте ваши годовые цели по вкладу]
 
-## Workflow Preferences
+## Предпочтения рабочего процесса
 
-### Morning Routine
-- [ ] System health check
-- [ ] Review daily plan
-- [ ] Check Git repositories
-- [ ] Set daily goals
+### Утренняя рутина
+- [ ] Проверка состояния системы
+- [ ] Обзор ежедневного плана
+- [ ] Проверка Git-репозиториев
+- [ ] Постановка ежедневных целей
 
-### Work Session Structure
-- **Preferred Session Length:** 25-45 minutes
-- **Break Frequency:** Every 1-2 hours
-- **Deep Work Blocks:** 1-2 per day
-- **Review/Planning Time:** 30 minutes daily
+### Структура рабочей сессии
+- **Предпочитаемая продолжительность сессии:** 25-45 минут
+- **Частота перерывов:** Каждые 1-2 часа
+- **Блоки глубокой работы:** 1-2 в день
+- **Время на ревью/планирование:** 30 минут ежедневно
 
-### Evening Routine
-- [ ] Daily retrospective
-- [ ] Update productivity metrics
-- [ ] Plan tomorrow's priorities
-- [ ] Code review and cleanup
+### Вечерняя рутина
+- [ ] Ежедневная ретроспектива
+- [ ] Обновление метрик продуктивности
+- [ ] Планирование приоритетов на завтра
+- [ ] Ревью кода и очистка
 
-## Learning Preferences
+## Предпочтения обучения
 
-### Learning Style
-- [ ] Visual learner
-- [ ] Hands-on learner
-- [ ] Reading documentation
-- [ ] Video tutorials
-- [ ] Practice projects
+### Стиль обучения
+- [ ] Визуальное обучение
+- [ ] Практическое обучение
+- [ ] Чтение документации
+- [ ] Видео-уроки
+- [ ] Практические проекты
 
-### Skill Development Areas
-- **Current Focus:** [What you're learning now]
-- **Next Priority:** [What you want to learn next]
-- **Long-term Interest:** [Future learning goals]
+### Области развития навыков
+- **Текущий фокус:** [Что вы сейчас изучаете]
+- **Следующий приоритет:** [Что вы хотите изучить далее]
+- **Долгосрочные интересы:** [Будущие цели обучения]
 
-## Project Management
+## Управление проектами
 
-### Project Organization
-- **Preferred Structure:** [e.g., feature-based, MVC, microservices]
-- **Documentation Style:** [e.g., README-driven, inline comments, external docs]
-- **Version Control:** [e.g., Git flow, GitHub flow, trunk-based]
+### Организация проектов
+- **Предпочитаемая структура:** [например, по фичам, MVC, микросервисы]
+- **Стиль документации:** [например, README-ориентированная, встроенные комментарии, внешняя документация]
+- **Контроль версий:** [например, Git flow, GitHub flow, trunk-based]
 
-### Code Quality Standards
-- **Testing Coverage Goal:** 80%+
-- **Code Review Requirements:** All code reviewed before merge
-- **Performance Targets:** [Define your performance goals]
-- **Security Priorities:** [List security concerns relevant to your work]
+### Стандарты качества кода
+- **Цель покрытия тестами:** 80%+
+- **Требования к ревью кода:** Весь код проходит ревью перед слиянием
+- **Цели по производительности:** [Определите ваши цели по производительности]
+- **Приоритеты безопасности:** [Перечислите вопросы безопасности, актуальные для вашей работы]
 
-## Tools and Environment
+## Инструменты и окружение
 
-### Development Environment
-- **Operating System:** [Windows, macOS, Linux distribution]
-- **Editor/IDE:** [VS Code, IntelliJ, Vim, etc.]
-- **Terminal:** [bash, zsh, PowerShell, etc.]
-- **Package Managers:** [npm, pip, cargo, etc.]
+### Среда разработки
+- **Операционная система:** [Windows, macOS, дистрибутив Linux]
+- **Редактор/IDE:** [VS Code, IntelliJ, Vim, и т.д.]
+- **Терминал:** [bash, zsh, PowerShell, и т.д.]
+- **Менеджеры пакетов:** [npm, pip, cargo, и т.д.]
 
-### Productivity Tools
-- **Time Tracking:** High-Efficiency Programmer built-in tracker
-- **Task Management:** [Your preferred task management system]
-- **Note Taking:** [Your note-taking method]
-- **Communication:** [Slack, Discord, Teams, etc.]
+### Инструменты продуктивности
+- **Отслеживание времени:** Встроенный трекер Системы Высокоэффективного Программиста
+- **Управление задачами:** [Ваша предпочитаемая система управления задачами]
+- **Заметки:** [Ваш метод ведения заметок]
+- **Общение:** [Slack, Discord, Teams, и т.д.]
 
-## Metrics and KPIs
+## Метрики и КПЭ
 
-### Daily Metrics
-- Productivity Score Target: 80+
-- Focus Sessions Target: 4+
-- Code Commits Target: 2+
-- Work Time Target: 6+ hours
+### Ежедневные метрики
+- Цель показателя продуктивности: 80+
+- Цель фокус-сессий: 4+
+- Цель коммитов кода: 2+
+- Цель рабочего времени: 6+ часов
 
-### Weekly Metrics
-- Projects Advanced: [Number of projects worked on]
-- Learning Time: [Hours spent learning]
-- Code Review Participation: [Reviews given/received]
-- System Usage: [Days using HEP system]
+### Недельные метрики
+- Продвинутые проекты: [Количество проектов, над которыми работали]
+- Время обучения: [Часы, потраченные на обучение]
+- Участие в ревью кода: [Проведенные/полученные ревью]
+- Использование системы: [Дни использования системы HEP]
 
-### Monthly Metrics
-- Goals Completed: [Percentage of monthly goals achieved]
-- Skill Progression: [New skills learned or improved]
-- Code Quality Improvement: [Measurable improvements]
-- Productivity Trend: [Overall productivity direction]
+### Месячные метрики
+- Выполненные цели: [Процент достигнутых месячных целей]
+- Прогресс навыков: [Новые навыки, изученные или улучшенные]
+- Улучшение качества кода: [Измеримые улучшения]
+- Тренд продуктивности: [Общее направление продуктивности]
 
-## Customizations
+## Настройки
 
-### HEP System Customizations
-- **Custom Aliases:** [List any custom command aliases you want]
-- **Modified Settings:** [Any default settings you want to change]
-- **Additional Scripts:** [Ideas for custom scripts]
+### Настройки системы HEP
+- **Пользовательские псевдонимы:** [Перечислите любые пользовательские псевдонимы команд, которые вы хотите]
+- **Измененные настройки:** [Любые настройки по умолчанию, которые вы хотите изменить]
+- **Дополнительные скрипты:** [Идеи для пользовательских скриптов]
 
-### Integration Preferences
-- **Calendar Integration:** [Google Calendar, Outlook, etc.]
-- **Project Management:** [Jira, Trello, GitHub Projects, etc.]
-- **Communication Tools:** [How you want notifications handled]
+### Предпочтения интеграции
+- **Интеграция с календарем:** [Google Calendar, Outlook, и т.д.]
+- **Управление проектами:** [Jira, Trello, GitHub Projects, и т.д.]
+- **Обработка уведомлений:** [Как вы хотите, чтобы обрабатывались уведомления]
 
-## Notes and Reminders
+## Заметки и напоминания
 
-### Personal Notes
-[Add any personal notes, preferences, or reminders that help you stay productive]
+### Личные заметки
+[Добавьте любые личные заметки, предпочтения или напоминания, которые помогают вам оставаться продуктивным]
 
-### Team Collaboration
-[Note any team-specific workflows, communication preferences, or collaboration tools]
+### Командное сотрудничество
+[Отметьте любые командные рабочие процессы, предпочтения в общении или инструменты совместной работы]
 
-### Health and Wellness
-[Include any health-related preferences like break reminders, exercise goals, etc.]
+### Здоровье и благополучие
+[Включите любые предпочтения, связанные со здоровьем, такие как напоминания о перерывах, цели по физическим упражнениям и т.д.]
 
 ---
 
-## Configuration History
+## История конфигурации
 
-### Changes Log
-- **Created:** $(date) - Initial profile setup
-- **Updated:** [Date] - [What was changed]
+### Журнал изменений
+- **Создан:** $(date) - Первоначальная настройка профиля
+- **Обновлен:** [Дата] - [Что было изменено]
 
-*This profile helps the High-Efficiency Programmer System customize its behavior to match your personal productivity preferences and goals.*
+*Этот профиль помогает Системе Высокоэффективного Программиста настроить свое поведение в соответствии с вашими личными предпочтениями по продуктивности и целями.*

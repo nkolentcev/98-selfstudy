@@ -1,177 +1,177 @@
-# Daily Usage Guide - High-Efficiency Programmer System
+# Руководство по ежедневному использованию - Система Высокоэффективного Программиста
 
-## 🌅 Your Daily Workflow
+## 🌅 Ваш ежедневный рабочий процесс
 
-This guide walks you through a typical day using the High-Efficiency Programmer System, from morning setup to evening retrospective.
+Это руководство проведет вас через типичный день использования Системы Высокоэффективного Программиста, от утренней настройки до вечерней ретроспективы.
 
-## 📅 Daily Routine Overview
+## 📅 Обзор ежедневной рутины
 
 ```
-🌅 Morning (15-20 min)
-├── System startup and health check
-├── Daily planning and goal setting
-├── Environment optimization
-└── Productivity setup
+🌅 Утро (15-20 мин)
+├── Запуск системы и проверка состояния
+├── Ежедневное планирование и постановка целей
+├── Оптимизация окружения
+└── Настройка продуктивности
 
-🎯 Work Sessions (Throughout day)
-├── Focus sessions (Pomodoro/Deep work)
-├── Time tracking
-├── AI-assisted development
-├── Code reviews and improvements
-└── Progress monitoring
+🎯 Рабочие сессии (В течение дня)
+├── Фокус-сессии (Помодоро/Глубокая работа)
+├── Отслеживание времени
+├── Разработка с помощью ИИ
+├── Ревью кода и улучшения
+└── Мониторинг прогресса
 
-🌙 Evening (10-15 min)
-├── Daily retrospective
-├── Metrics review
-├── Tomorrow's planning
-└── System cleanup
+🌙 Вечер (10-15 мин)
+├── Ежедневная ретроспектива
+├── Обзор метрик
+├── Планирование на завтра
+└── Очистка системы
 ```
 
-## 🚀 Starting Your Day
+## 🚀 Начало дня
 
-### Morning Routine Command
+### Команда утренней рутины
 ```bash
 ./high-efficiency-programmer.sh start
-# or use alias: hep-start
+# или используйте псевдоним: hep-start
 ```
 
-**What happens during the morning routine:**
+**Что происходит во время утренней рутины:**
 
-1. **🔍 System Health Check**
-   - Verifies essential development tools
-   - Checks disk space and memory usage
-   - Reports any system issues
+1. **🔍 Проверка состояния системы**
+   - Проверяет основные инструменты разработки
+   - Проверяет дисковое пространство и использование памяти
+   - Сообщает о любых проблемах системы
 
-2. **📊 Git Repository Overview**
-   - Scans for Git repositories
-   - Shows branch status and pending changes
-   - Highlights repositories needing attention
+2. **📊 Обзор Git-репозиториев**
+   - Сканирует Git-репозитории
+   - Показывает статус веток и ожидающие изменения
+   - Выделяет репозитории, требующие внимания
 
-3. **📅 Daily Planning Setup**
-   - Creates today's plan from template
-   - Populates with current date and day
-   - Sets up your daily task structure
+3. **📅 Настройка ежедневного планирования**
+   - Создает план на сегодня из шаблона
+   - Заполняет текущую дату и день
+   - Настраивает структуру ваших ежедневных задач
 
-4. **⚡ Environment Optimization**
-   - Clears temporary files if needed
-   - Optimizes Git configuration
-   - Sets up development environment variables
+4. **⚡ Оптимизация окружения**
+   - Очищает временные файлы при необходимости
+   - Оптимизирует конфигурацию Git
+   - Настраивает переменные среды разработки
 
-5. **🎯 Productivity Tips**
-   - Daily motivational quote
-   - Random productivity tip
-   - Focus technique reminder
+5. **🎯 Советы по продуктивности**
+   - Ежедневная мотивационная цитата
+   - Случайный совет по продуктивности
+   - Напоминание о технике фокусировки
 
-### Quick Morning Start (Minimal)
+### Быстрый утренний старт (минимальный)
 ```bash
 ./high-efficiency-programmer.sh morning --quiet
 ```
 
-## 🎯 Work Sessions
+## 🎯 Рабочие сессии
 
-### Focus Mode (Pomodoro Technique)
+### Режим фокуса (Техника Помодоро)
 
-#### Standard Pomodoro Session
+#### Стандартная сессия Помодоро
 ```bash
 ./high-efficiency-programmer.sh focus
-# Default: 25min work + 5min break + 4 cycles
+# По умолчанию: 25 мин работы + 5 мин перерыв + 4 цикла
 ```
 
-#### Custom Focus Sessions
+#### Настраиваемые фокус-сессии
 ```bash
-# 45-minute focused work session
+# 45-минутная сфокусированная рабочая сессия
 ./high-efficiency-programmer.sh focus 45
 
-# Pomodoro with custom timings
+# Помодоро с настраиваемыми интервалами
 ./scripts/focus-mode.sh pomodoro 30 10 3 20
-# 30min work, 10min break, 3 cycles, 20min long break
+# 30 мин работы, 10 мин перерыв, 3 цикла, 20 мин длинный перерыв
 ```
 
-#### Deep Work Sessions
+#### Сессии глубокой работы
 ```bash
-# 90-minute deep work session
+# 90-минутная сессия глубокой работы
 ./scripts/focus-mode.sh deep 90
 ```
 
-### Time Tracking
+### Отслеживание времени
 
-#### Start Tracking
+#### Начало отслеживания
 ```bash
-./high-efficiency-programmer.sh track start "project-name" "development" "Working on user authentication"
+./high-efficiency-programmer.sh track start "имя-проекта" "разработка" "Работа над аутентификацией пользователя"
 ```
 
-#### Quick Status Check
+#### Быстрая проверка статуса
 ```bash
 ./high-efficiency-programmer.sh track status
 ```
 
-#### Stop Current Session
+#### Остановка текущей сессии
 ```bash
 ./high-efficiency-programmer.sh track stop
 ```
 
-#### Daily Summary
+#### Сводка за день
 ```bash
 ./high-efficiency-programmer.sh track today
 ```
 
-### AI-Assisted Development
+### Разработка с помощью ИИ
 
-#### Interactive AI Chat
+#### Интерактивный чат с ИИ
 ```bash
 ./high-efficiency-programmer.sh ai
-# or
+# или
 ./scripts/ai-helper.sh chat
 ```
 
-#### Quick Questions
+#### Быстрые вопросы
 ```bash
-./high-efficiency-programmer.sh ai "How do I optimize this SQL query?"
-./high-efficiency-programmer.sh ai "Explain the SOLID principles"
-./high-efficiency-programmer.sh ai "Debug this error: TypeError undefined"
+./high-efficiency-programmer.sh ai "Как оптимизировать этот SQL-запрос?"
+./high-efficiency-programmer.sh ai "Объясни принципы SOLID"
+./high-efficiency-programmer.sh ai "Отладка этой ошибки: TypeError undefined"
 ```
 
-#### Code Analysis
+#### Анализ кода
 ```bash
 ./scripts/ai-helper.sh analyze src/main.js
 ./scripts/ai-helper.sh explain utils.py 15 30
 ```
 
-## 🔍 Code Quality & Reviews
+## 🔍 Качество кода и ревью
 
-### Automated Code Review
+### Автоматическое ревью кода
 ```bash
 ./high-efficiency-programmer.sh review
-# Reviews changed files vs last commit
+# Проверяет измененные файлы по сравнению с последним коммитом
 
-# Review specific file
+# Проверка конкретного файла
 ./scripts/auto-review.sh file src/components/UserAuth.js
 
-# Review staged changes
+# Проверка стадированных изменений
 ./scripts/auto-review.sh staged
 ```
 
-### Auto Improvements
+### Автоматические улучшения
 ```bash
-# Scan project for improvements
+# Сканирование проекта на предмет улучшений
 ./scripts/auto-improvements.sh scan
 
-# Show priority suggestions
+# Показать приоритетные предложения
 ./scripts/auto-improvements.sh priority
 
-# Apply automatic fixes
+# Применить автоматические исправления
 ./scripts/auto-improvements.sh apply
 ```
 
-### TDD Workflow
+### Рабочий процесс TDD
 ```bash
-# Interactive TDD cycle
+# Интерактивный цикл TDD
 ./scripts/tdd-ai-cycle.sh cycle
 
-# Quick test generation
-./scripts/tdd-ai-cycle.sh red "user login validation"
+# Быстрое создание тестов
+./scripts/tdd-ai-cycle.sh red "валидация входа пользователя"
 
-# Run tests
+# Запуск тестов
 ./scripts/tdd-ai-cycle.sh test
 ```
 
@@ -217,38 +217,38 @@ This guide walks you through a typical day using the High-Efficiency Programmer 
 ./scripts/productivity-metrics.sh week
 ```
 
-## 🌙 Evening Routine
+## 🌙 Вечерняя рутина
 
-### Complete Evening Retrospective
+### Полная вечерняя ретроспектива
 ```bash
 ./scripts/evening-retrospective.sh full
 ```
 
-**What happens during evening retrospective:**
+**Что происходит во время вечерней ретроспективы:**
 
-1. **📊 Metrics Collection**
-   - Git activity summary
-   - Time tracking analysis
-   - Focus session statistics
-   - Productivity score calculation
+1. **📊 Сбор метрик**
+   - Сводка активности в Git
+   - Анализ отслеживания времени
+   - Статистика фокус-сессий
+   - Расчет показателя продуктивности
 
-2. **🤔 Interactive Reflection**
-   - Daily accomplishments review
-   - Challenges and solutions
-   - Learning insights
-   - Energy and mood assessment
+2. **🤔 Интерактивная рефлексия**
+   - Обзор ежедневных достижений
+   - Вызовы и решения
+   - Обучающие моменты
+   - Оценка энергии и настроения
 
-3. **📈 Progress Analysis**
-   - Weekly patterns and trends
-   - Improvement suggestions
-   - Goal progress review
+3. **📈 Анализ прогресса**
+   - Недельные паттерны и тренды
+   - Предложения по улучшению
+   - Обзор прогресса по целям
 
-4. **🎯 Tomorrow's Planning**
-   - Priority setting for next day
-   - Action items creation
-   - Schedule optimization
+4. **🎯 Планирование на завтра**
+   - Определение приоритетов на следующий день
+   - Создание плана действий
+   - Оптимизация расписания
 
-### Quick Evening Check
+### Быстрая вечерняя проверка
 ```bash
 ./scripts/evening-retrospective.sh quick
 ```
@@ -286,27 +286,27 @@ vim config/developer-profile.md
 ./scripts/focus-mode.sh config
 ```
 
-## ⚡ Quick Reference Commands
+## ⚡ Справочник команд
 
-### Essential Daily Commands
-| Command | Description |
-|---------|-------------|
-| `hep start` | Morning routine |
-| `hep focus` | Start focus session |
-| `hep focus 45` | 45-minute focus |
-| `hep ai` | AI assistant |
-| `hep review` | Code review |
-| `hep track` | Time tracking |
-| `hep dashboard` | Open dashboard |
+### Основные ежедневные команды
+| Команда | Описание |
+|---------|----------|
+| `hep start` | Утренняя рутина |
+| `hep focus` | Начать фокус-сессию |
+| `hep focus 45` | 45-минутный фокус |
+| `hep ai` | ИИ-ассистент |
+| `hep review` | Ревью кода |
+| `hep track` | Отслеживание времени |
+| `hep dashboard` | Открыть дашборд |
 
-### Advanced Commands
-| Command | Description |
-|---------|-------------|
-| `./scripts/tdd-ai-cycle.sh` | TDD workflow |
-| `./scripts/debug-assistant.sh` | Debug help |
-| `./scripts/auto-improvements.sh` | Code improvements |
-| `./scripts/evening-retrospective.sh` | Evening routine |
-| `./scripts/productivity-metrics.sh` | Detailed metrics |
+### Продвинутые команды
+| Команда | Описание |
+|---------|----------|
+| `./scripts/tdd-ai-cycle.sh` | TDD рабочий процесс |
+| `./scripts/debug-assistant.sh` | Помощь в отладке |
+| `./scripts/auto-improvements.sh` | Улучшения кода |
+| `./scripts/evening-retrospective.sh` | Вечерняя рутина |
+| `./scripts/productivity-metrics.sh` | Детальные метрики |
 
 ## 🔧 Workflow Integration
 
@@ -330,45 +330,45 @@ While editor-agnostic, VS Code integration works well:
 - **Throughout day**: 2-4 focus sessions with breaks
 - **5:00 PM**: Evening retrospective (15 min)
 
-## 📈 Productivity Tips
+## 📈 Советы по продуктивности
 
-### Maximizing Focus Sessions
-1. **Eliminate Distractions**
-   - Close social media
-   - Put phone in airplane mode
-   - Use noise-canceling headphones
+### Максимизация фокус-сессий
+1. **Устранение отвлекающих факторов**
+   - Закройте социальные сети
+   - Переключите телефон в авиарежим
+   - Используйте наушники с шумоподавлением
 
-2. **Prepare Before Starting**
-   - Clear task definition
-   - Required files open
-   - Water and snacks ready
+2. **Подготовка перед началом**
+   - Четкое определение задачи
+   - Откройте необходимые файлы
+   - Подготовьте воду и перекус
 
-3. **Honor the Break**
-   - Step away from screen
-   - Do light physical activity
-   - Avoid digital devices
+3. **Соблюдайте перерывы**
+   - Отойдите от экрана
+   - Выполните легкую физическую активность
+   - Избегайте цифровых устройств
 
-### Effective Time Tracking
-1. **Be Consistent**
-   - Start tracking immediately
-   - Use descriptive task names
-   - Track breaks and interruptions
+### Эффективное отслеживание времени
+1. **Будьте последовательны**
+   - Начинайте отслеживание немедленно
+   - Используйте описательные названия задач
+   - Отслеживайте перерывы и прерывания
 
-2. **Review Regularly**
-   - Check daily summaries
-   - Identify patterns
-   - Optimize time allocation
+2. **Регулярно анализируйте**
+   - Проверяйте ежедневные сводки
+   - Выявляйте паттерны
+   - Оптимизируйте распределение времени
 
-### AI Assistant Best Practices
-1. **Ask Specific Questions**
-   - Provide context and details
-   - Include error messages
-   - Specify your programming language
+### Лучшие практики работы с ИИ-ассистентом
+1. **Задавайте конкретные вопросы**
+   - Предоставляйте контекст и детали
+   - Включайте сообщения об ошибках
+   - Указывайте язык программирования
 
-2. **Iterate and Clarify**
-   - Ask follow-up questions
-   - Request examples
-   - Seek explanations for suggestions
+2. **Итерируйте и уточняйте**
+   - Задавайте дополнительные вопросы
+   - Запрашивайте примеры
+   - Ищите объяснения предложений
 
 ## 🎯 Weekly Review Process
 
@@ -434,4 +434,4 @@ While editor-agnostic, VS Code integration works well:
 
 ---
 
-*Remember: The system is designed to enhance your productivity, not replace your judgment. Adapt these workflows to match your personal style and project requirements.*
+*Помните: Система предназначена для повышения вашей продуктивности, а не для замены вашего суждения. Адаптируйте эти рабочие процессы под свой личный стиль и требования проекта.*

@@ -1,99 +1,99 @@
-# Installation Guide - High-Efficiency Programmer System
+# Руководство по установке - Система Высокоэффективного Программиста
 
-## 🚀 Quick Start
+## 🚀 Быстрый старт
 
-The High-Efficiency Programmer System is designed to be self-contained and easy to install. Follow these steps to get up and running quickly.
+Система Высокоэффективного Программиста спроектирована как автономная и легкая в установке. Следуйте этим шагам для быстрого запуска.
 
-## 📋 Prerequisites
+## 📋 Предварительные требования
 
-### Required Tools
-- **Bash** (4.0 or higher) - For running the system scripts
-- **Git** (2.0 or higher) - For version control integration
-- **curl** - For web requests and API calls
-- **jq** - For JSON processing (used by metrics and tracking)
+### Необходимые инструменты
+- **Bash** (4.0 или выше) - Для запуска системных скриптов
+- **Git** (2.0 или выше) - Для интеграции с системой контроля версий
+- **curl** - Для веб-запросов и API вызов
+- **jq** - Для обработки JSON (используется метриками и отслеживанием)
 
-### Recommended Tools
-- **Node.js** (14+ or LTS) - For JavaScript project analysis
-- **Python 3** (3.7+) - For Python project analysis
-- **Visual Studio Code** - Primary supported editor
-- **Docker** - For containerized development workflows
+### Рекомендуемые инструменты
+- **Node.js** (14+ или LTS) - Для анализа JavaScript проектов
+- **Python 3** (3.7+) - Для анализа Python проектов
+- **Visual Studio Code** - Основной поддерживаемый редактор
+- **Docker** - Для контейнеризованных рабочих процессов разработки
 
-### Platform Support
-- ✅ **Linux** (Ubuntu, Debian, CentOS, Arch, etc.)
+### Поддержка платформ
+- ✅ **Linux** (Ubuntu, Debian, CentOS, Arch и т.д.)
 - ✅ **macOS** (10.14+)
-- ✅ **Windows** (WSL2 recommended)
-- ⚠️ **Windows Native** (Limited support, some features may not work)
+- ✅ **Windows** (рекомендуется WSL2)
+- ⚠️ **Windows без WSL** (Ограниченная поддержка, некоторые функции могут не работать)
 
-## 📥 Installation Methods
+## 📥 Методы установки
 
-### Method 1: Git Clone (Recommended)
+### Метод 1: Клонирование через Git (рекомендуется)
 
-1. **Clone the repository:**
+1. **Клонируйте репозиторий:**
    ```bash
    git clone https://github.com/yourusername/high-efficiency-programmer-system.git
    cd high-efficiency-programmer-system
    ```
 
-2. **Make the main script executable:**
+2. **Сделайте основной скрипт исполняемым:**
    ```bash
    chmod +x high-efficiency-programmer.sh
    chmod +x scripts/*.sh
    ```
 
-3. **Run the interactive setup:**
+3. **Запустите интерактивную настройку:**
    ```bash
    ./scripts/setup-reminders.sh init
    ```
 
-4. **Start the system:**
+4. **Запустите систему:**
    ```bash
    ./high-efficiency-programmer.sh start
    ```
 
-### Method 2: Download ZIP
+### Метод 2: Скачивание ZIP-архива
 
-1. **Download the latest release:**
-   - Go to the [releases page](https://github.com/yourusername/high-efficiency-programmer-system/releases)
-   - Download the latest ZIP file
-   - Extract to your desired location
+1. **Скачайте последний релиз:**
+   - Перейдите на [страницу релизов](https://github.com/yourusername/high-efficiency-programmer-system/releases)
+   - Скачайте последний ZIP-файл
+   - Распакуйте в желаемое место
 
-2. **Make scripts executable:**
+2. **Сделайте скрипты исполняемыми:**
    ```bash
    cd high-efficiency-programmer-system
    chmod +x high-efficiency-programmer.sh
    chmod +x scripts/*.sh
    ```
 
-3. **Continue with setup:**
+3. **Продолжите настройку:**
    ```bash
    ./scripts/setup-reminders.sh init
    ```
 
-### Method 3: Package Managers
+### Метод 3: Менеджеры пакетов
 
 #### Homebrew (macOS/Linux)
 ```bash
-# Coming soon
+# Скоро будет доступно
 brew install high-efficiency-programmer
 ```
 
-#### npm (Cross-platform)
+#### npm (Кросс-платформенный)
 ```bash
-# Coming soon
+# Скоро будет доступно
 npm install -g high-efficiency-programmer
 ```
 
-## 🔧 Detailed Installation Steps
+## 🔧 Подробные шаги установки
 
-### Step 1: System Requirements Check
+### Шаг 1: Проверка системных требований
 
-Run the requirements check to ensure your system has all necessary tools:
+Запустите проверку требований для убеждения, что ваша система имеет все необходимые инструменты:
 
 ```bash
 ./scripts/setup-reminders.sh tools
 ```
 
-If any required tools are missing, install them:
+Если какие-либо необходимые инструменты отсутствуют, установите их:
 
 #### Ubuntu/Debian:
 ```bash
@@ -104,11 +104,11 @@ sudo apt install git curl jq nodejs npm python3 python3-pip
 #### CentOS/RHEL/Fedora:
 ```bash
 sudo yum install git curl jq nodejs npm python3 python3-pip
-# or for newer versions:
+# или для новых версий:
 sudo dnf install git curl jq nodejs npm python3 python3-pip
 ```
 
-#### macOS (with Homebrew):
+#### macOS (с Homebrew):
 ```bash
 brew install git curl jq node python3
 ```
@@ -118,48 +118,48 @@ brew install git curl jq node python3
 sudo pacman -S git curl jq nodejs npm python python-pip
 ```
 
-### Step 2: Git Configuration
+### Шаг 2: Конфигурация Git
 
-The system integrates with Git for productivity tracking. Configure Git if not already done:
+Система интегрируется с Git для отслеживания продуктивности. Настройте Git, если это еще не сделано:
 
 ```bash
-git config --global user.name "Your Name"
+git config --global user.name "Ваше Имя"
 git config --global user.email "your.email@example.com"
 ```
 
-### Step 3: Interactive Setup
+### Шаг 3: Интерактивная настройка
 
-Run the comprehensive setup process:
+Запустите комплексный процесс настройки:
 
 ```bash
 ./scripts/setup-reminders.sh init
 ```
 
-This will guide you through:
-- ✅ Tool verification
-- ⚙️ Git configuration
-- 👤 Developer profile creation
-- 🔗 Shell integration (aliases)
-- 📁 Directory structure setup
+Это проведет вас через:
+- ✅ Проверка инструментов
+- ⚙️ Конфигурация Git
+- 👤 Создание профиля разработчика
+- 🔗 Интеграция с оболочкой (псевдонимы)
+- 📁 Настройка структуры каталогов
 
-### Step 4: Verify Installation
+### Шаг 4: Проверка установки
 
-Test the installation by running:
+Проверьте установку, запустив:
 
 ```bash
 ./high-efficiency-programmer.sh help
 ```
 
-You should see the main help menu with all available commands.
+Вы должны увидеть основное меню справки со всеми доступными командами.
 
-## 📁 Directory Structure
+## 📁 Структура каталогов
 
-After installation, your directory structure will look like this:
+После установки структура ваших каталогов будет выглядеть так:
 
 ```
 high-efficiency-programmer-system/
-├── high-efficiency-programmer.sh    # Main entry point
-├── scripts/                         # All system scripts
+├── high-efficiency-programmer.sh    # Основная точка входа
+├── scripts/                         # Все системные скрипты
 │   ├── ai-helper.sh
 │   ├── auto-improvements.sh
 │   ├── auto-review.sh
@@ -174,55 +174,55 @@ high-efficiency-programmer-system/
 │   ├── setup-reminders.sh
 │   ├── tdd-ai-cycle.sh
 │   └── time-tracker.sh
-├── config/                          # Configuration files
+├── config/                          # Конфигурационные файлы
 │   └── developer-profile.md
-├── planning/                        # Planning templates
+├── planning/                        # Шаблоны планирования
 │   ├── daily-template.md
 │   └── weeks-2-4-plan.md
-├── dashboard/                       # Dashboard files
+├── dashboard/                       # Файлы дашборда
 │   └── index.html
-├── docs/                           # Documentation
-│   ├── installation.md (this file)
+├── docs/                           # Документация
+│   ├── installation.md (этот файл)
 │   ├── daily-usage.md
 │   └── troubleshooting.md
-└── README.md                       # Project overview
+└── README.md                       # Обзор проекта
 ```
 
-## 🔧 Configuration Options
+## 🔧 Опции конфигурации
 
-### Shell Integration
+### Интеграция с оболочкой
 
-The setup process will add aliases to your shell configuration:
+Процесс настройки добавит псевдонимы в конфигурацию вашей оболочки:
 
 ```bash
-# Added to ~/.bashrc or ~/.zshrc
+# Добавлено в ~/.bashrc или ~/.zshrc
 alias hep='./high-efficiency-programmer.sh'
 alias hep-start='./high-efficiency-programmer.sh start'
 alias hep-focus='./high-efficiency-programmer.sh focus'
 alias hep-ai='./high-efficiency-programmer.sh ai'
 ```
 
-### PATH Integration (Optional)
+### Интеграция с PATH (опционально)
 
-To use the system from anywhere, add it to your PATH:
+Чтобы использовать систему из любого места, добавьте ее в ваш PATH:
 
 ```bash
-# Add to ~/.bashrc or ~/.zshrc
+# Добавьте в ~/.bashrc или ~/.zshrc
 export PATH="$PATH:/path/to/high-efficiency-programmer-system"
 
-# Then you can use:
+# Затем вы можете использовать:
 high-efficiency-programmer.sh start
-# or
-hep start  # if aliases are installed
+# или
+hep start  # если псевдонимы установлены
 ```
 
-### Data Storage
+### Хранение данных
 
-The system stores data in `~/.hep-data/`:
-- `time-tracking.json` - Time tracking data
-- `focus-sessions.json` - Focus session history
-- `productivity-metrics.json` - Productivity metrics
-- `setup-status.json` - Setup completion status
+Система хранит данные в `~/.hep-data/`:
+- `time-tracking.json` - Данные отслеживания времени
+- `focus-sessions.json` - История фокус-сессий
+- `productivity-metrics.json` - Метрики продуктивности
+- `setup-status.json` - Статус завершения настройки
 
 ## ✅ Post-Installation Verification
 
@@ -336,23 +336,23 @@ ls -la scripts/  # Should show all .sh files
 - Some distributions may have different package names
 - Check your shell (bash/zsh) configuration
 
-### Getting Help
+### Получение помощи
 
-If you encounter issues not covered here:
+Если вы столкнулись с проблемами, не освещенными здесь:
 
-1. Check the [troubleshooting guide](troubleshooting.md)
-2. Review the [daily usage guide](daily-usage.md)
-3. Open an issue on the GitHub repository
-4. Join our community discussions
+1. Проверьте [руководство по устранению неполадок](troubleshooting.md)
+2. Просмотрите [руководство по ежедневному использованию](daily-usage.md)
+3. Откройте вопрос в репозитории GitHub
+4. Присоединяйтесь к обсуждениям сообщества
 
-## 🎯 Next Steps
+## 🎯 Следующие шаги
 
-After successful installation:
+После успешной установки:
 
-1. **Read the [daily usage guide](daily-usage.md)**
-2. **Complete your developer profile** in `config/developer-profile.md`
-3. **Start your first morning routine:** `./high-efficiency-programmer.sh start`
-4. **Try a focus session:** `./high-efficiency-programmer.sh focus`
-5. **Explore the AI assistant:** `./high-efficiency-programmer.sh ai`
+1. **Прочитайте [руководство по ежедневному использованию](daily-usage.md)**
+2. **Заполните свой профиль разработчика** в `config/developer-profile.md`
+3. **Запустите свою первую утреннюю рутину:** `./high-efficiency-programmer.sh start`
+4. **Попробуйте фокус-сессию:** `./high-efficiency-programmer.sh focus`
+5. **Исследуйте ИИ-ассистента:** `./high-efficiency-programmer.sh ai`
 
-Welcome to your high-efficiency programming journey! 🚀
+Добро пожаловать в ваше высокоэффективное путешествие по программированию! 🚀

@@ -1,118 +1,118 @@
-# Troubleshooting Guide - High-Efficiency Programmer System
+# Руководство по устранению неполадок - Система Высокоэффективного Программиста
 
-## 🔧 Quick Fixes
+## 🔧 Быстрые исправления
 
-### Most Common Issues
+### Наиболее распространенные проблемы
 
-#### 1. Permission Denied Errors
+#### 1. Ошибки «Отказано в доступе»
 ```bash
-# Fix script permissions
+# Исправление разрешений скриптов
 chmod +x high-efficiency-programmer.sh
 chmod +x scripts/*.sh
 
-# If still having issues:
+# Если проблемы продолжаются:
 find . -name "*.sh" -exec chmod +x {} \;
 ```
 
-#### 2. "jq: command not found"
+#### 2. «Команда jq не найдена»
 ```bash
 # Ubuntu/Debian
 sudo apt install jq
 
 # CentOS/RHEL/Fedora
 sudo yum install jq
-# or for newer versions:
+# или для новых версий:
 sudo dnf install jq
 
-# macOS with Homebrew
+# macOS с Homebrew
 brew install jq
 
-# Check installation
+# Проверка установки
 jq --version
 ```
 
-#### 3. Git Not Configured
+#### 3. Git не настроен
 ```bash
-# Configure Git globally
-git config --global user.name "Your Name"
+# Настройка Git глобально
+git config --global user.name "Ваше Имя"
 git config --global user.email "your.email@example.com"
 
-# Verify configuration
+# Проверка конфигурации
 git config --global --list
 ```
 
-#### 4. Scripts Don't Execute
+#### 4. Скрипты не выполняются
 ```bash
-# Check if you're in the right directory
+# Проверьте, находитесь ли вы в правильном каталоге
 pwd
 ls -la high-efficiency-programmer.sh
 
-# Run with bash explicitly if needed
+# Запускайте явно через bash при необходимости
 bash high-efficiency-programmer.sh help
 ```
 
-## 🐛 Detailed Troubleshooting
+## 🐛 Подробное устранение неполадок
 
-### Installation Issues
+### Проблемы с установкой
 
-#### Problem: Setup Script Fails
-**Symptoms:**
-- Setup process stops unexpectedly
-- Error messages during `./scripts/setup-reminders.sh init`
+#### Проблема: Сбой скрипта настройки
+**Симптомы:**
+- Процесс настройки неожиданно останавливается
+- Ошибки во время `./scripts/setup-reminders.sh init`
 
-**Solutions:**
+**Решения:**
 ```bash
-# Check system requirements
+# Проверка системных требований
 ./scripts/setup-reminders.sh tools
 
-# Run individual setup steps
+# Выполнение отдельных шагов настройки
 ./scripts/setup-reminders.sh git
 ./scripts/setup-reminders.sh profile
 ./scripts/setup-reminders.sh shell
 
-# Check setup status
+# Проверка статуса настройки
 ./scripts/setup-reminders.sh status
 ```
 
-#### Problem: Missing Dependencies
-**Symptoms:**
-- Commands fail with "command not found"
-- Features don't work properly
+#### Проблема: Отсутствующие зависимости
+**Симптомы:**
+- Команды выдают ошибку "команда не найдена"
+- Функции не работают корректно
 
-**Solutions:**
+**Решения:**
 ```bash
-# Check which tools are missing
+# Проверка, какие инструменты отсутствуют
 for tool in git curl jq node python3; do
     if command -v $tool >/dev/null 2>&1; then
-        echo "✅ $tool is installed"
+        echo "✅ $tool установлен"
     else
-        echo "❌ $tool is missing"
+        echo "❌ $tool отсутствует"
     fi
 done
 
-# Install missing tools based on your OS
-# See installation.md for platform-specific instructions
+# Установите отсутствующие инструменты в зависимости от вашей ОС
+# См. installation.md для инструкций по конкретным платформам
 ```
 
-### Runtime Issues
+### Проблемы во время выполнения
 
-#### Problem: Focus Mode Won't Start
-**Symptoms:**
-- Timer doesn't display properly
-- Session doesn't track correctly
+#### Проблема: Режим фокуса не запускается
+**Симптомы:**
+- Таймер отображается некорректно
+- Сессия не отслеживается правильно
 
-**Solutions:**
+**Решения:**
 ```bash
-# Test focus mode with short session
+# Тестирование режима фокуса с короткой сессией
 ./scripts/focus-mode.sh focus 1
 
-# Check if data directory exists
+# Проверка существования каталога данных
 ls -la ~/.hep-data/
 
-# Create data directory if missing
+# Создание каталога данных, если он отсутствует
 mkdir -p ~/.hep-data
 
-# Test with verbose output
+# Тестирование с подробным выводом
 bash -x ./scripts/focus-mode.sh focus 5
 ```
 
@@ -442,61 +442,61 @@ git config --global credential.helper store
 git config --global credential.helper cache --timeout=3600
 ```
 
-## 📞 Getting Additional Help
+## 📞 Получение дополнительной помощи
 
-### Self-Help Resources
-1. **Check the logs:** Look in `~/.hep-data/` for any log files
-2. **Run diagnostics:** Use `./scripts/debug-assistant.sh test`
-3. **Verify setup:** Run `./scripts/setup-reminders.sh status`
-4. **Test components:** Try individual scripts to isolate issues
+### Ресурсы для самопомощи
+1. **Проверьте логи:** Посмотрите в `~/.hep-data/` на любые лог-файлы
+2. **Запустите диагностику:** Используйте `./scripts/debug-assistant.sh test`
+3. **Проверьте настройку:** Запустите `./scripts/setup-reminders.sh status`
+4. **Тестируйте компоненты:** Попробуйте отдельные скрипты для изоляции проблем
 
-### Documentation
-- [Installation Guide](installation.md) - Setup and requirements
-- [Daily Usage Guide](daily-usage.md) - How to use features
-- [README.md](../README.md) - Project overview
+### Документация
+- [Руководство по установке](installation.md) - Настройка и требования
+- [Руководство по ежедневному использованию](daily-usage.md) - Как использовать функции
+- [README.md](../README.md) - Обзор проекта
 
-### Community Support
-- **GitHub Issues**: Report bugs and request features
-- **Discussions**: Ask questions and share tips
-- **Wiki**: Community-maintained troubleshooting tips
+### Поддержка сообщества
+- **GitHub Issues**: Сообщайте об ошибках и запрашивайте новые функции
+- **Обсуждения**: Задавайте вопросы и делитесь советами
+- **Wiki**: Советы по устранению неполадок от сообщества
 
-### Creating a Bug Report
+### Создание отчета об ошибке
 
-When reporting issues, include:
+При сообщении о проблемах включите:
 
 ```bash
-# System information
+# Информация о системе
 uname -a
 echo $SHELL
 git --version
 jq --version
 
-# HEP system status
+# Статус системы HEP
 ./scripts/setup-reminders.sh status
 ls -la ~/.hep-data/
 
-# Error reproduction steps
-# Include the exact commands that cause the issue
-# Include the complete error output
+# Шаги воспроизведения ошибки
+# Укажите точные команды, которые вызывают проблему
+# Включите полный вывод ошибки
 ```
 
-### Recovery Commands
+### Команды восстановления
 
-If all else fails, try a clean reset:
+Если ничего не помогает, попробуйте полное сбрасывание:
 
 ```bash
-# Backup your configuration
+# Создайте резервную копию вашей конфигурации
 cp -r config/ config-backup/
 cp -r ~/.hep-data ~/.hep-data-backup
 
-# Clean reset
+# Полное сбрасывание
 rm -rf ~/.hep-data/
 ./scripts/setup-reminders.sh init
 
-# Restore configuration if needed
+# Восстановление конфигурации при необходимости
 cp -r config-backup/* config/
 ```
 
 ---
 
-*Remember: Most issues can be resolved by ensuring all dependencies are installed and scripts have proper execution permissions. When in doubt, start with the basic fixes and work your way up to more complex solutions.*
+*Помните: Большинство проблем можно решить, убедившись, что все зависимости установлены, а скрипты имеют правильные разрешения на выполнение. В случае сомнений начинайте с базовых исправлений и постепенно переходите к более сложным решениям.*
